@@ -56,3 +56,8 @@ npm install
 
 npm start
 Frontend runs on: http://localhost:3000
+
+<img width="1897" height="957" alt="Screenshot 2025-08-12 132440" src="https://github.com/user-attachments/assets/ab8603c2-bdc5-434b-9159-f490998e9a16" />
+<img width="1908" height="959" alt="Screenshot 2025-08-12 132537" src="https://github.com/user-attachments/assets/0fc3b921-d899-4130-a89f-8607f5ad3a4e" />
+<img width="1912" height="960" alt="Screenshot 2025-08-12 132628" src="https://github.com/user-attachments/assets/7f7c4386-23f5-41cc-baf3-9e1996aa0ddc" />
+
