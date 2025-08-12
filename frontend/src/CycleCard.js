@@ -4,9 +4,9 @@ import './styles.css';
 
 const CycleCard = ({ _id, brand, price, image, count, token, updateCycleCount }) => {
   const handleRentButtonClick = () => {
-    axios.patch(`http://localhost:8080/cycles/rent/${_id}`, {}, {
+    axios.patch(`http://localhost:5050/cycles/rent/${_id}`, {}, {
       headers: {
-        'Authorization': token
+        'Authorization': `Bearer ${token}`
       }
     })
       .then(response => {

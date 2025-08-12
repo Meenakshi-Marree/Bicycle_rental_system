@@ -14,7 +14,7 @@ const Auth = ({ setToken }) => {
 
     try {
       const endpoint = isLogin ? '/login' : '/signup';
-      const response = await axios.post(`http://localhost:8080${endpoint}`, { username, password });
+      const response = await axios.post(`http://localhost:5050${endpoint}`, { username, password });
       
       if (isLogin) {
         setToken(response.data.token);

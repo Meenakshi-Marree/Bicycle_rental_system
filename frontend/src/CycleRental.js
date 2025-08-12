@@ -7,7 +7,7 @@ const CycleRental = ({ token, setToken }) => {
   const [cycles, setCycles] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/cycles')
+    axios.get('http://localhost:5050/cycles')
       .then(response => {
         setCycles(response.data);
       })
