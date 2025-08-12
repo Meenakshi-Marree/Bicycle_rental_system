@@ -1,5 +1,58 @@
-<<<<<<< HEAD
-﻿# cyclerentalsystem
-=======
-# Bicycle_rental_system
->>>>>>> b8bd946a78218deef7a02cde053af5f1e1621457
+# Cycle Rental System
+
+A full-stack Cycle Rental web application with a Flask backend and React frontend.
+
+---
+
+## Project Structure
+
+- `backend/` - Flask API backend with MongoDB connection
+- `frontend/` - React frontend UI
+
+---
+
+## Requirements
+
+- Python 3.x
+- Node.js & npm
+- MongoDB (local or MongoDB Atlas)
+
+---
+
+## Setup & Run
+
+### Backend
+
+1. Navigate to backend folder:
+   ```bash
+   cd backend
+
+2. Create and activate virtual environment:
+
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Linux/Mac
+source venv/bin/activate
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+Start MongoDB server locally, or update MongoDB connection string in server.py to use MongoDB Atlas.
+
+4. Run the backend server:
+
+python server.py
+Backend runs on: http://127.0.0.1:5050
+
+## Frontend
+1. Navigate to frontend folder:
+ cd frontend
+
+2. Install dependencies:
+npm install
+
+3. Start React app:
+
+npm start
+Frontend runs on: http://localhost:3000
